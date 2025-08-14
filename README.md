@@ -39,7 +39,7 @@ Links:
 
 [4] gcloud beta run deploy BQ-Spanner \
       --source . \
-      --function BQ-Spanner \
+      --function main \
       --base-image python312 \
       --region us-central1 \
       --allow-unauthenticated \
