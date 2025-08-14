@@ -32,8 +32,11 @@ Finally, deploy the project to Cloud Run using the following gcloud command. Thi
 
 Links:
 [1] https://cloud.google.com/bigquery/docs/federated-queries
+
 [2] https://cloud.google.com/bigquery/docs/connect-to-spanner
+
 [3] https://cloud.google.com/bigquery/docs/federated-queries-intro#work_with_collations_in_external_data_sources
+
 [4] gcloud beta run deploy BQ-Spanner \
       --source . \
       --function BQ-Spanner \
